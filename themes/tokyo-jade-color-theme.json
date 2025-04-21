@@ -1,0 +1,74 @@
+{
+    "name": "Tokyo Jade",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#0f111a",
+        "editor.foreground": "#d3fbd8",
+        "editor.selectionBackground": "#1f2d2a",
+        "editor.lineHighlightBackground": "#1e222a",
+        "editorCursor.foreground": "#66ffcc",
+        "editorWhitespace.foreground": "#2e3c3a",
+        "editorIndentGuide.background": "#2a2e3b",
+        "editorIndentGuide.activeBackground": "#50fa7b",
+        "sideBar.background": "#0f111acc",
+        "activityBar.background": "#0f111acc",
+        "statusBar.background": "#0f111acc",
+        "titleBar.activeBackground": "#0f111acc"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#5f6f66",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "string",
+                "constant.other.symbol"
+            ],
+            "settings": {
+                "foreground": "#b4f8c8"
+            }
+        },
+        {
+            "scope": [
+                "keyword",
+                "storage"
+            ],
+            "settings": {
+                "foreground": "#50fa7b"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#8affd1"
+            }
+        },
+        {
+            "scope": [
+                "variable",
+                "identifier"
+            ],
+            "settings": {
+                "foreground": "#d1ffd7"
+            }
+        },
+        {
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#7fffd4"
+            }
+        }
+    ]
+}

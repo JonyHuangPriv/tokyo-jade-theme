@@ -1,0 +1,22 @@
+{
+    "name": "tokyo-jade",
+    "displayName": "Tokyo Jade",
+    "description": "A dark, minimalist VS Code theme with Tokyo Night vibes and emerald green highlights.",
+    "version": "1.0.0",
+    "publisher": "jonyhuangpriv",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tokyo Jade",
+                "uiTheme": "vs-dark",
+                "path": "./themes/tokyo-jade-color-theme.json"
+            }
+        ]
+    }
+}
